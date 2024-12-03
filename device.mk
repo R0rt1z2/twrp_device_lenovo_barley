@@ -21,6 +21,10 @@ PRODUCT_PACKAGES += \
     update_verifier \
     update_engine_sideload
 
+PRODUCT_PACKAGES += \
+    create_pl_dev \
+    create_pl_dev.recovery
+
 # Boot control
 PRODUCT_PACKAGES += \
     android.hardware.boot@1.2-mtkimpl \
